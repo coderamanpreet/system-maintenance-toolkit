@@ -85,7 +85,5 @@ service_manager() {
     esac
 }
 
-# Example usage:
-# LOGFILE="service_log.txt"
-# service_manager "$LOGFILE"
+
 
