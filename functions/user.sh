@@ -1,7 +1,7 @@
 #!/bin/bash
 
 user_manager() {
-
+ LOG_FILE="$1"
     OPERATION=$(whiptail --title "User Manager" --menu "Choose operation:" 15 50 3 \
         "1" "Add a User" \
         "2" "Delete a User" \
